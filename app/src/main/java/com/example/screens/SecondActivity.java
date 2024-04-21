@@ -10,7 +10,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_main);
 
         // Get the Intent that started this activity and its extras
         Intent intent = getIntent();
